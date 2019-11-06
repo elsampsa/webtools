@@ -53,7 +53,8 @@ static
         ...
 ```
 
-### Link collections
+### Link collection
+- [Staring a new Pyramid project](https://github.com/Pylons/pyramid-cookiecutter-starter#usage)
 - [Bootstrap basic templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
 - [Bootstrap css](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
 - [Bootstrap styleguide](https://codepen.io/joe-watkins/pen/AokJw/)
