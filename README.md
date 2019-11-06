@@ -54,9 +54,13 @@ static
 ```
 
 ### Link collections
-- [Using Bootstrap templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
+- [Bootstrap basic templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
 - [Bootstrap css](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
+- [Bootstrap styleguide](https://codepen.io/joe-watkins/pen/AokJw/)
+- [More bootstrap templates](https://themes.getbootstrap.com/)
 - [JS DOM](https://www.w3schools.com/jsref/dom_obj_anchor.asp)
+- [JS All DOM members](https://www.w3schools.com/jsref/dom_obj_all.asp)
 - [JS API](https://developer.mozilla.org/en-US/docs/Web/API)
 - [Pyramid Request](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/request.html)
 - [Pyramid Response](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/response.html)
+- [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/templates/)
