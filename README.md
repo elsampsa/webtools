@@ -1,4 +1,6 @@
- ## Some tools for templating webpages
+## Some tools for templating webpages
+
+*(mainly just for myself)*
 
 ### bootstrap2jinja.py
 
@@ -51,7 +53,10 @@ static
         ...
 ```
 
-Some more links: 
-
-- [Using templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
+### Link collections
+- [Using Bootstrap templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
 - [Bootstrap css](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
+- [JS DOM](https://www.w3schools.com/jsref/dom_obj_anchor.asp)
+- [JS API](https://developer.mozilla.org/en-US/docs/Web/API)
+- [Pyramid Request](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/request.html)
+- [Pyramid Response](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/response.html)
