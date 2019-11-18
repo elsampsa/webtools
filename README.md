@@ -11,7 +11,7 @@ Take the "Source Code" option from [this page](https://getbootstrap.com/docs/3.4
 
 That gives you the bootstrap library and the example templates.  The latter live in "docs/examples".  
 
-Then do this:
+Then do this (you can use [this script](copy_bs.bash))
 
 1. Create "static/bootstrap" into your pyramid projects directory structure
 
@@ -58,6 +58,7 @@ static
 - [Bootstrap basic templates](https://getbootstrap.com/docs/3.4/getting-started/#examples)
 - [Bootstrap css](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
 - [Bootstrap styleguide](https://codepen.io/joe-watkins/pen/AokJw/)
+- [Bootstrap templates](https://startbootstrap.com/)
 - [More bootstrap templates](https://themes.getbootstrap.com/)
 - [JS DOM](https://www.w3schools.com/jsref/dom_obj_anchor.asp)
 - [JS All DOM members](https://www.w3schools.com/jsref/dom_obj_all.asp)
@@ -65,3 +66,4 @@ static
 - [Pyramid Request](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/request.html)
 - [Pyramid Response](https://docs.pylonsproject.org/projects/pyramid/en/latest/api/response.html)
 - [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/templates/)
+- [Redis quickstart](https://pyramid-redis-sessions.readthedocs.io/en/latest/gettingstarted.html) (remember to apt-get install redis-server)
