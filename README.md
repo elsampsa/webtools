@@ -33,7 +33,7 @@ where ```namespace``` is the namespace of your pyramid project (say, ```my.aweso
 ```
 <link href="{{request.static_url('NAMESPACE:static/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
 ```
-(most of the time the namespace is just the name of your python packages directory)
+(most of the time the namespace is just the name of your python package's directory)
 
 Bonus sector:
 
