@@ -11,17 +11,21 @@ Take the "Source Code" option from [this page](https://getbootstrap.com/docs/3.4
 
 That gives you the bootstrap library and the example templates.  The latter live in "docs/examples".  
 
-Then do this (you can use [this script](copy_bs.bash))
+Then do this (you can use [this script](copy_bs.bash):
 
-1. Create "static/bootstrap" into your pyramid projects directory structure
+$DIR = pyramid projects code dir (where you have the directory "static/")
 
-2. Copy -r the "dist" folder from bootstrap into your pyramid projects "static/bootstrap/"
+1. Create $DIR/static/bootstrap
 
-3. Copy -r the "docs/assets" folder from bootstrap into your pyramid projects "static/bootstrap/"
+2. Copy -r the "dist" folder from bootstrap into $DIR/static/bootstrap/
 
-4. Copy the template specific css file (say, "jumbotron.css") into "static/bootstrap/"
+3. Copy -r the "docs/assets" folder from bootstrap into $DIR/static/bootstrap
 
-5. Run ```python3 bootstrap2jinja.py namespace index.html > template.jinja2```
+4. Copy the template specific css file (say, "jumbotron.css") into $DIR/static/bootstrap/"
+
+5. Copy the template specific ```index.html``` into $DIR
+
+Finally, run ```python3 bootstrap2jinja.py namespace index.html > templates/base.jinja2```
 
 where ```namespace``` is the namespace of your pyramid project (say, ```my.awesome.project```), i.e. links will look like this:
 ```
