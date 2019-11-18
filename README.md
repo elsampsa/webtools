@@ -11,7 +11,7 @@ Take the "Source Code" option from [this page](https://getbootstrap.com/docs/3.4
 
 That gives you the bootstrap library and the example templates.  The latter live in "docs/examples".  
 
-Then do this (you can use [this script](copy_bs.bash):
+Then do this (you can use [this script](copy_bs.bash)):
 
 $DIR = pyramid projects code dir (where you have the directory "static/")
 
