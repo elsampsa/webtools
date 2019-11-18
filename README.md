@@ -35,7 +35,13 @@ where ```namespace``` is the namespace of your pyramid project (say, ```my.aweso
 ```
 (most of the time the namespace is just the name of your python package's directory)
 
-Bonus sector:
+After that, it's time to turn ```templates/mytemplate.jinja2``` into template mother class.  Edit it & add this section therein:
+```
+{% block content %}
+{% endblock content %}
+```
+
+*Bonus*
 
 If you define (any) extra parameter, say ```python3 bootstrap2jinja.py namespace index.html 1 > templates/mytemplate.jinja2```, the scripts will turn any js downloaded from cdn's into local files.
 
